@@ -1,0 +1,5 @@
+docker build -t my-nginx-site .
+docker login
+
+docker tag my-nginx-site dockerhub-username/my-ngnix-site
+docker push username/my-nginx-site
